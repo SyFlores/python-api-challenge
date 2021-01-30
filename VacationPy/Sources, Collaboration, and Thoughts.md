@@ -11,6 +11,6 @@
 
 ### Thoughts
 - What is Being Asked?
-  - 
+  - a
 - Pseudocode
-  - 
+  - a
