@@ -1,7 +1,18 @@
 # python-api-challenge
-We will be creating Python scripts using the weather and location API's in Jupyter Notebooks to do the following:
+
+*Collaborators: Sy Flores, Ben Wankmuller*
+There was minor collaboration at the start of this project, but Sy Flores completed a majority of the project following that initial phase.
 
 ---
+
+## **Table of Contents**
+- [WeatherPy](#weatherpy)
+- [VacationPy](#vacationpy)
+- [Conclusion](#conclusion)
+
+---
+
+We will be creating Python scripts using weather and location API's in Jupyter Notebooks to do the following:
 
 ## **WeatherPy**
 We will visualize the weather of 500+ cities across the world of varying distance from the equator.
@@ -38,7 +49,19 @@ We will use the information from the WeatherPy analysis to plan future vacations
 Google Places API for this part of the assignment.
 
 ### **Humidity Heatmap**
-Create a heatmap that displays the humidity for every city from WeatherPy, including:
-- stuff
+Create a heatmap that displays the humidity for every city from WeatherPy, for the following conditions:
+- Max temperature between 60 and 90
+- Wind speeds below 10 MPH
+- Cloudiness below 30%
 
 ### **Hotel Geoplot**
+On top of the Humidity Heatmap, plot hotels closest to the cities with those locations with ideal weather conditions.
+This should include a pop-up with the following information:
+- Hotel Name
+- City
+- Country
+
+## Conclusion
+1. There appears to be no correlatory relationship between the latitude of a city and wind speed or cloudiness.
+2. Additionally, we can more concretely show this is true by identifying no meaningful correlation for wind speed or cloudiness when we look at solely the northern or southern hemisphere.
+3. The one variable that shows some promise is max temperature against the latitude of cities in the northern hemisphere, with that relationship have a correlation coefficient of ~ -0.8464.
